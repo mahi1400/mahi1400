@@ -1,0 +1,803 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan-webfont.eot') format('eot'), url('../fonts/BYekan-webfont.woff') format('woff'), url('../fonts/BYekan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "BYekan" !important;
+}
+
+.parent {
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent .parent-one .one {
+    color: rgb(235, 235, 14);
+    display: flex;
+    margin-left: 1rem;
+}
+
+.parent .parent-one .two {
+    color: yellow;
+    margin-left: 1rem;
+    flex-direction: row-reverse;
+}
+
+.parent .parent-one .two a {
+    color: yellow;
+}
+
+.parent .parent-one .two i {
+    margin-right: 1rem;
+    flex-direction: row-reverse;
+}
+
+.parent .parent-two {
+    width: 80%;
+    height: 5rem;
+    background-color: yellow;
+    border-radius: 60px 0 0 60px;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.parent .parent-two .image-parent-two {
+    width: 4rem;
+    height: 4rem;
+    margin-top: .5rem;
+    background-image: url(../styles/image/irancell-farsi-logo-60_60.jpg);
+    background-size: cover;
+    margin-right: 2rem;
+}
+
+.parent .parent-two .navbar-list ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+
+.parent .parent-two .navbar-list ul li {
+    margin-right: 2rem;
+}
+
+.parent .parent-two .navbar-list ul li a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+
+/* owl */
+
+.a {
+    direction: rtl;
+}
+
+.owl-carousel .a .title-a {
+    padding-top: 15rem;
+    padding-right: 5rem;
+}
+
+.owl-carousel .a .title-a h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .a .title-a button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 25rem;
+    margin-top: 3rem;
+}
+
+.b {
+    direction: rtl;
+}
+
+.owl-carousel .b .title-b {
+    padding-top: 15rem;
+    padding-right: 15rem;
+}
+
+.owl-carousel .b .title-b h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .b .title-b button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.d {
+    direction: rtl;
+}
+
+.owl-carousel .d .title-d {
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.owl-carousel .d .title-d h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .d .title-d button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.e {
+    direction: rtl;
+}
+
+.owl-carousel .e .title-e {
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.owl-carousel .e .title-e h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .e .title-e button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.f {
+    direction: rtl;
+}
+
+.owl-carousel .f .title-f {
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.owl-carousel .f .title-f h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .f .title-f button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    background-color: yellow;
+}
+
+.h {
+    direction: rtl;
+}
+
+.owl-carousel .h .title-h {
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.owl-carousel .h .title-h h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .h .title-h button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.i {
+    direction: rtl;
+}
+
+.owl-carousel .i .title-i {
+    padding-top: 10rem;
+    padding-right: 10rem;
+}
+
+.owl-carousel .i .title-i h1 {
+    font-weight: bolder;
+}
+
+.owl-carousel .i .title-i button {
+    border-radius: 50px;
+    padding-right: 3rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+
+/* owl */
+
+.title-icon {
+    width: 100%;
+    height: 30rem;
+    background-color: yellow;
+    direction: rtl;
+    display: flex;
+    margin-top: -60px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.title-icon .title1 h2 {
+    padding-top: 3rem;
+    padding-right: 8rem;
+    font-weight: bolder;
+}
+
+.title-icon .title2 .title2-box1 {
+    width: 10rem;
+    height: 10rem;
+    /* margin-top: 4rem; */
+    margin-right: 2rem;
+    background-image: url(../styles/image/fastest-network.png);
+    background-size: cover;
+    background-color: wheat;
+}
+
+.title-icon .title2 .title-box {
+    width: 10rem;
+    height: 15rem;
+    margin-top: 10rem;
+    margin-right: -15rem;
+}
+
+.title-icon .title2 .title-box .box1 {
+    width: 15rem;
+    height: 5rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.title-icon .title2 .title-box1 {
+    width: 10rem;
+    height: 15rem;
+    margin-top: 10rem;
+    margin-right: 3rem;
+}
+
+.title-icon .title2 .title-box1 .title2-box2 {
+    width: 10rem;
+    height: 10rem;
+    /* margin-top: 4rem; */
+    margin-right: 2rem;
+    background-image: url(../styles/image/big-cover.png);
+    background-size: cover;
+    background-color: wheat;
+}
+
+.title-icon .title2 .title-box1 .box2 {
+    width: 15rem;
+    height: 5rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+
+.title-icon .title2 .title-box2 {
+    width: 10rem;
+    height: 15rem;
+    margin-top: 10rem;
+    margin-right: 8rem;
+}
+
+.title-icon .title2 .title-box2 .title2-box3 {
+    width: 10rem;
+    height: 10rem;
+    /* margin-top: 4rem; */
+    margin-right: 2rem;
+    background-image: url(../styles/image/practical-apps.png);
+    background-size: cover;
+    background-color: wheat;
+}
+
+.title-icon .title2 .title-box2 .box3 {
+    width: 15rem;
+    height: 5rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+
+.title-icon .title2 .title-box3 {
+    width: 10rem;
+    height: 15rem;
+    margin-top: 10rem;
+    margin-right: 9rem;
+}
+
+.title-icon .title2 .title-box3 .title2-box4 {
+    width: 10rem;
+    height: 10rem;
+    /* margin-top: 4rem; */
+    margin-right: 2rem;
+    background-image: url(../styles/image/support.png);
+    background-size: cover;
+    background-color: wheat;
+}
+
+.title-icon .title2 .title-box3 .box4 {
+    width: 15rem;
+    height: 5rem;
+    padding-top: 3rem;
+    padding-right: 5rem;
+}
+
+.owl2 {
+    width: 100%;
+    height: 40rem;
+}
+
+.owl2 .form {
+    display: flex;
+    direction: rtl;
+}
+
+.owl2 .form .title-form {
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.owl2 .form .title-icon1 {
+    border: 1px solid yellow;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+
+/* owl */
+
+.owl2 {
+    width: 100%;
+}
+
+.owl2 .call {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+.owl2 .call img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.loop .item .call {}
+
+.owl3 {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.owl3 .owl31 {
+    margin: auto;
+    width: 80%;
+    height: 38rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.owl3 .owl31 .owl-box1 {
+    width: 15rem;
+    height: 35rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+
+/* .owl3 .owl31 .owl-box1{
+    
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+} */
+
+.owl3 .owl31 .owl-box1 .img-box11 {
+    background-image: url(../styles/image/1.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .title-box11 {
+    text-align: center;
+}
+
+.owl3 .owl31 .box22 {
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .box22 .img-box22 {
+    background-image: url(../styles/image/2.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+}
+
+.owl3 .owl31 .box22 .title-box22 {
+    text-align: center;
+}
+
+.owl3 .owl31 .owl-box3 {
+    width: 13rem;
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.owl3 .owl31 .box33 {
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .box33 .img-box33 {
+    background-image: url(../styles/image/3.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+.owl3 .owl31 .box33 .title-box33 {
+    text-align: center;
+}
+
+.owl3 .owl31 .owl32 {
+    width: 20%;
+    height: 35rem;
+    margin-top: 1rem;
+}
+
+.owl3 .owl31 .owl32 .img {
+    background-image: url(../styles/image/myirancellh.png);
+    background-size: cover;
+    width: 100%;
+    height: 33rem;
+}
+
+.owl3 .owl31 .owl32 .img1 {
+    background-image: url(../styles/image/lenz-mehr-min.png);
+    background-size: cover;
+    width: 100%;
+    height: 33rem;
+}
+
+.owl3 .owl31 .owl32 .img2 {
+    background-image: url(../styles/image/Charkhoneh.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 33rem;
+}
+
+.owl3 .owl31 .owl33 {
+    width: 20%;
+    height: 35rem;
+    margin-top: 1rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box4 {
+    width: 13rem;
+    height: 9rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box4 .box44 {
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .owl33 .owl-box4 .box44 .img-box44 {
+    background-image: url(../styles/image/6.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box5 {
+    width: 13rem;
+    height: 9rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box5 .box55 {
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .owl33 .owl-box5 .box55 .img-box55 {
+    background-image: url(../styles/image/5.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box6 {
+    width: 13rem;
+    height: 9rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.owl3 .owl31 .owl33 .owl-box6 .box66 {
+    width: 7rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.owl3 .owl31 .owl33 .owl-box6 .box66 .img-box66 {
+    background-image: url(../styles/image/4.jpg);
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+}
+
+.image {
+    width: 100%;
+    height: 50rem;
+    direction: rtl;
+    background-color: rgb(216, 211, 201);
+}
+
+.image .title-image {
+    margin-top: 5rem;
+    margin-right: 10rem;
+}
+
+.image .img-big {
+    width: 30%;
+    height: 38rem;
+    margin-right: 10rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.image .img-big .box-big {
+    background-image: url(../styles/image/shop-rond.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 33rem;
+    border-radius: 20px;
+}
+
+.image .big {
+    height: 43rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-big2 {
+    width: 52rem;
+    height: 17rem;
+    margin-right: 43rem;
+    margin-top: -22rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.img-big2 .img-big21 {
+    width: 52rem;
+    height: 13rem;
+    background-image: url(./image/home-shop-4.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img-big2 .title-big21 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.img-big2 .title-big21 button {
+    width: 6rem;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+.image .big .img-box2 {
+    display: flex;
+}
+
+.image .big .img-big .title-img button {
+    width: 6rem;
+    border-radius: 50px;
+    background-color: rgb(218, 218, 38);
+}
+
+.image .big .img-big .title-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.image .img-box2 .img-box21 {
+    width: 25rem;
+    height: 20rem;
+    margin-right: 3rem;
+    border-radius: 20px;
+    background-color: rgb(241, 238, 233);
+}
+
+.image .img-box2 .img-box21 .img1 {
+    border-radius: 20px;
+    width: 100%;
+    height: 15rem;
+    background-image: url(../styles/image/home-shop-2.jpg);
+    background-size: cover;
+}
+
+.image .img-box2 .img-box21 .title-img1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.image .img-box2 .img-box21 .title-img1 button {
+    width: 6rem;
+    border-radius: 50px;
+    background-color: rgb(218, 218, 38);
+}
+
+.image .img-box2 .img-box22 {
+    width: 25rem;
+    height: 20rem;
+    margin-right: 3rem;
+    border-radius: 20px;
+    background-color: rgb(247, 243, 238);
+}
+
+.image .img-box2 .img-box22 .img2 {
+    border-radius: 20px;
+    width: 100%;
+    height: 15rem;
+    background-image: url(../styles/image/home-shop-3.jpg);
+    background-size: cover;
+}
+
+.image .img-box2 .img-box22 .title-img2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.image .img-box2 .img-box22 .title-img2 button {
+    width: 6rem;
+    border-radius: 50px;
+    background-color: rgb(218, 218, 38);
+}
+
+.image .big .img-big2 {
+    width: 3rem;
+    height: 5rem;
+    /* margin-top: 25rem; */
+    flex-direction: column;
+}
+
+
+/* .image .big .parent{
+    display: flex;
+    flex-direction: column;
+} */
+
+.owl4 {
+    width: 100%;
+    height: 40rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(252, 245, 233);
+}
+
+.owl4 .card {
+    width: 25rem;
+    height: 30rem;
+    border-radius: 25px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.owl4 .card .card1 {
+    width: 25rem;
+    height: 13rem;
+    background-color: yellow;
+    border-radius: 30px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.owl4 .card .card1 h1 {
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: bolder;
+}
+
+.owl4 .card .card2 {
+    width: 25rem;
+    height: 17rem;
+    direction: rtl;
+}
+
+.owl4 .card .card2 p1 {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* .owl4 .card .card2 h4{
+    margin-top: 2rem;
+    margin-right: 1rem;
+
+} */
+
+.owl4 .card .card2 .a {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.owl4 .card .card2 p2 {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.owl4 .card .card2 .b {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.owl4 .card .card2 button {
+    border-radius: 50px;
+    width: 6rem;
+    margin-right: 10rem;
+}
+
+.owl4 .card .card2 .z {
+    border-radius: 50px;
+    width: 6rem;
+    margin-right: 10rem;
+    margin-top: 6rem;
+}
+
+.fot1 {
+    width: 100%;
+    height: 10rem;
+    direction: rtl;
+}
+
+.ab a {
+    color: white;
+}
+
+.fo1 {
+    direction: rtl;
+    margin-top: 5rem;
+}
